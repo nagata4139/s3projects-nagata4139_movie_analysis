@@ -1,4 +1,4 @@
-# Day08必須課題: RDBから映画データの集計を行う
+# Day08必須課題: 映画データの集計を行う
 
 ## 提出方法
 - 各自1つの課題用のリポジトリを作成すること
@@ -31,7 +31,9 @@
 
 
 ## 課題用リポジトリの準備
-手順3については、土曜コースの講義中に一緒に進めます。その後、動画URLを本issueに添付します。
+手順3については、下記の動画を参考にしてください。
+
+[2020年11月07日_第8回目講義_土曜日コース_パート10_実装課題の説明](https://vimeo.com/476587960)
 
 1. `s3projects/day08_kadai_mohira8888_movie_analysis` を Clone する
 2. GitHub上で自身のリポジトリをつくる。ex: `s3projects/tunamayo9999_movie_analysis` 
@@ -102,6 +104,9 @@ id,title,genre,income
 3,Dove l'erba si tinge di sangue,Action,1900000
 4,A prova di proiettile,Action,807947
 5,Race for Glory,Action,100326
+...
+...(省略)
+...
 37,Drawing Restraint 9,Fantasy,234743
 38,Barbe bleue,Fantasy,33490
 39,Cirque du Soleil - Mondi lontani,Fantasy,12512862
