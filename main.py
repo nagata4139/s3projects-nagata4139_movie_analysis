@@ -19,7 +19,7 @@ def main():
     initialize_database()
 
     # 以下から書き始めること！
-
+    print("test")
 
 if __name__ == '__main__':
     main()
