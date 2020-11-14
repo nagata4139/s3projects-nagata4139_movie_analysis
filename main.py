@@ -14,7 +14,6 @@ def initialize_database() -> None:
 
     conn.close()
 
-
 def main():
     initialize_database()
 
@@ -31,12 +30,12 @@ def main():
     conn_db = sqlite3.connect(db_path)
     cursor_db = conn_db.cursor()
 
-    # クエリを生成
+    # クエリを生成(ジャンルごとの合計収入を降順で抽出)
     query = "SELECT genre, SUM(income) as total \
             FROM my_movies \
             GROUP BY genre ORDER BY total DESC"
 
-    # 戻り値をCSVに出力
+    # クエリの実行結果をCSVに出力
     for record in cursor_db.execute(query):
         with open("output.csv", "a", newline="") as cfile:
             cline = csv.writer(cfile)
